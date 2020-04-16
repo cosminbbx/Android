@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1D1E1E"
+    tools:context=".SettingsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:background="#2F2F30"
+        android:src="@drawable/ic_account" />
+    <TextView
+        android:id="@+id/name_text"
+        android:textAlignment="center"
+        android:text="Cosmin"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A6AAAA"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/points_text"
+        android:textAlignment="center"
+        android:text="10P"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A6AAAA"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/email_text"
+        android:textAlignment="center"
+        android:text="Cosmin@uaic.com"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A6AAAA"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+  <Button
+      android:text="Edit"
+      android:id="@+id/edit_button"
+      android:layout_marginTop="16dp"
+      android:gravity="center"
+      android:background="#455553"
+      android:onClick="onEditButtonPress"
+      android:layout_gravity="center"
+      android:layout_width="100dp"
+      android:layout_height="100dp">
+
+
+  </Button>
+
+</LinearLayout>

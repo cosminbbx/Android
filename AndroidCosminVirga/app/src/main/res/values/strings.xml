@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="Lab2">Laboratorul 2</string>
+    <string name="AppTitle">Shopping list</string>
+    <string name="settings">Settings</string>
+    <string name="add_apple">Add Apple</string>
+    <string name="details">Details</string>
+    <string name="back">Back</string>
+    <string name="take_picture">Take picture</string>
+</resources>
